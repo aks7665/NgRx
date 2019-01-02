@@ -1,0 +1,19 @@
+<form (ngSubmit)="onSighUp(suForm)" #suForm="ngForm">
+  <div class="offset-md-4 col-md-4 mt-5">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">Email</span>
+        </div>
+        <!-- <input type="email" class="form-control" id="email" aria-describedby="basic-addon3" placeholder="Enter E-mail" name="email" ngModel required minlength="6" maxlength="26" [email]> -->
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">Password</span>
+        </div>
+        <input type="password" class="form-control" id="userpswd" aria-describedby="basic-addon3" placeholder="Enter Password" name="userpswd" ngModel required minlength="8" maxlength="16">
+      </div>
+      <!-- <div class="mt-3"> -->
+        <button type="submit" class="btn btn-success col-md-12" [disabled]="suForm.invalid">Sign Up</button>
+      <!-- </div> -->
+  </div>  
+</form>

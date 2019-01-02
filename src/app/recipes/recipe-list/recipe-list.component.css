@@ -1,0 +1,12 @@
+.cardBox {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 2%;
+    margin-top: 15px;
+    padding: 10px 0px;
+    padding-left: 15px;
+}
+
+.recipeImg {
+    height: 130px;
+}
